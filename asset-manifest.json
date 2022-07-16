@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-project-maxcourse/static/css/main.0f0d3fad.css",
+    "main.js": "/react-project-maxcourse/static/js/main.3ea212e1.js",
+    "static/media/logo.svg": "/react-project-maxcourse/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-project-maxcourse/index.html",
+    "main.0f0d3fad.css.map": "/react-project-maxcourse/static/css/main.0f0d3fad.css.map",
+    "main.3ea212e1.js.map": "/react-project-maxcourse/static/js/main.3ea212e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f0d3fad.css",
+    "static/js/main.3ea212e1.js"
+  ]
+}
