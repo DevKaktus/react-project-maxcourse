@@ -10,7 +10,7 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path={"/"} element={<Layout/>}>
+                <Route path={"/react-project-maxcourse"} element={<Layout/>}>
                     <Route index element={<Home/>}/>
                     <Route path={"posts"} element={<Posts/>}/>
                     <Route path={"feedback"} element={<Feedback />}/>
