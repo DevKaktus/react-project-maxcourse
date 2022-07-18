@@ -10,10 +10,10 @@ const Layout = () => {
                     <img className={"logo__image"} src={ logo } alt=""/>
                 </div>
                 <nav className={"header__navigation"}>
-                    <NavLink className={"header__navigation-link"} to={"/"}>Home</NavLink>
-                    <NavLink className={"header__navigation-link"} to={"/Posts"}>Posts</NavLink>
-                    <NavLink className={"header__navigation-link"} to={"/Feedback"}>Feedback</NavLink>
-                    <NavLink className={"header__navigation-link"} to={"/About"}>About Me</NavLink>
+                    <NavLink className={"header__navigation-link"} end to={"/react-project-maxcourse"} >Home</NavLink>
+                    <NavLink className={"header__navigation-link"} to={"/react-project-maxcourse/Posts"}>Posts</NavLink>
+                    <NavLink className={"header__navigation-link"} to={"/react-project-maxcourse/Feedback"}>Feedback</NavLink>
+                    <NavLink className={"header__navigation-link"} to={"/react-project-maxcourse/About"}>About Me</NavLink>
                 </nav>
             </header>
             <main className={"main"}>

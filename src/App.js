@@ -11,10 +11,10 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path={"/react-project-maxcourse"} element={<Layout/>}>
-                    <Route index element={<Home/>}/>
-                    <Route path={"posts"} element={<Posts/>}/>
-                    <Route path={"feedback"} element={<Feedback />}/>
-                    <Route path={"about"} element={<About />} />
+                    <Route strict path={"/react-project-maxcourse"} element={<Home/>}/>
+                    <Route path={"/react-project-maxcourse/posts"} element={<Posts/>}/>
+                    <Route path={"/react-project-maxcourse/feedback"} element={<Feedback />}/>
+                    <Route path={"/react-project-maxcourse/about"} element={<About />} />
                 </Route>
             </Routes>
         </div>

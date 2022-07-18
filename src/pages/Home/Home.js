@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import Card from "../../components/Card";
-
+import "./Home.scss"
 
 const Home = () => {
 
@@ -31,18 +31,19 @@ const Home = () => {
     } else {
         console.log(data);
         return (
-            <div>
-            {
-                data.length && data.map((data) => {
-                    return (
-                        <Card key={data.index}
-                            index={data.index}
-                            name={data.name}
-                            image={data.picture}
-                            about={data.about}/>
-                    )
-                })
-            }
+            <div className={"wrapper"}>
+                {
+                    data.length && data.slice(0,4).map((data) => {
+                        return (
+                            <Card className={"card"} key={data.index}
+                                  date={data.date}
+                                  index={data.index}
+                                  name={data.name}
+                                  image={data.picture}
+                                  about={data.about}/>
+                        )
+                    })
+                }
             </div>
         )
     }
