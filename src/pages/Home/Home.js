@@ -32,6 +32,7 @@ const Home = () => {
         console.log(data);
         return (
             <div className={"wrapper"}>
+                <div className={"info"}>about info</div>
                 {
                     data.length && data.slice(0,4).map((data) => {
                         return (
@@ -40,7 +41,8 @@ const Home = () => {
                                   index={data.index}
                                   name={data.name}
                                   image={data.picture}
-                                  about={data.about}/>
+                                  about={data.about}
+                            tags={data.tags[0]}/>
                         )
                     })
                 }

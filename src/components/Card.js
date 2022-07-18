@@ -12,8 +12,13 @@ export default function Card({name, image, about, tags, date, index}) {
                     <div className={"title"}>
                         <h3 className={"title__text"}>{name}</h3>
                     </div>
-                    <div className={"day"}>
-                        <span className={"day__text"}>{day}</span>
+                    <div className={"text-container__tags"}>
+                        <div className={"day"}>
+                            <span className={"day__text"}>{day}</span>
+                        </div>
+                        <div className={"day"}>
+                            <span className={"day__text"}>{tags}</span>
+                        </div>
                     </div>
                     <div className={'about'}>
                         <div className={'about__text'}>{about}</div>

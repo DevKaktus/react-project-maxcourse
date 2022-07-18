@@ -41,6 +41,11 @@
   justify-content: space-around;
   align-items: flex-start;
   gap: 5px;
+
+  &__tags {
+    display: flex;
+    gap: 10px;
+  }
 }
 
 .day {
@@ -49,7 +54,7 @@
   color: white;
   font-size: 13px;
   font-weight: 500;
-  padding: 1%;
+  padding: 4%;
 }
 
 .title {

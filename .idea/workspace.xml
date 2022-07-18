@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ec5798a-2118-4c5c-9457-ff6f70c5def4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
