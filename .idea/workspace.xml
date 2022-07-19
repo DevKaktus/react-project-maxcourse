@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec5798a-2118-4c5c-9457-ff6f70c5def4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a56c6390-b0bc-458c-8bc1-bb2553ac7bab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Feedback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,8 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/webstorm/my-app",
     "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"

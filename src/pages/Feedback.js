@@ -1,6 +1,10 @@
+import Form from "../components/Form";
+
 const Feedback = () => {
     return (
-        <div>feedback form</div>
+        <div>
+            <Form/>
+        </div>
     );
 }
 

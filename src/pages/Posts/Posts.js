@@ -1,4 +1,3 @@
-import Search from "../../components/Search";
 import {useEffect, useState} from "react";
 import Card from "../../components/Card";
 import "./Posts.scss"
@@ -14,7 +13,7 @@ const Posts = () => {
     const [value, setValue] = useState('');
     const filteredPosts = data.filter((post) => {
         return (
-            post.name.toLowerCase().includes(value.toLowerCase())
+            post.name.toLowerCase().includes(value.toLowerCase()) || post.tags.join().toLowerCase().includes(value.toLowerCase())
         )
     })
 

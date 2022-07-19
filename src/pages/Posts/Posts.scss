@@ -2,9 +2,23 @@
   width: 100%;
   min-height: 70vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   padding: 10px 0 10px 0;
+}
+
+.search {
+justify-self: start;
+  &__input {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.37);
+    transition: all .5s;
+    &:focus {
+      width: 500px;
+    }
+  }
 }
