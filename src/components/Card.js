@@ -24,7 +24,9 @@ export default function Card({name, image, about, tags, date, index}) {
                         <div className={'about__text'}>{about}</div>
                     </div>
                 </div>
+
             </div>
+            <div className={"card__line"}></div>
         </section>
     )
 }
