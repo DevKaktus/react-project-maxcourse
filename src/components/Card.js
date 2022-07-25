@@ -1,9 +1,11 @@
 import "./Card.scss"
+import {Link} from "react-router-dom";
 
 export default function Card({name, image, about, tags, date, index}) {
     let day = date.split("T")[0].replace("-", ".").replace("-", ".");
     return (
         <section key={index} className={"card"}>
+            <Link className={"card__link"} to={`/react-project-maxcourse/posts/${index}`}/>
             <div className={"card__container"}>
                 <div className={'image'}>
                     <img className={'image__inner'} src={image} alt=""/>

@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Posts from "./pages/Posts/Posts";
 import Feedback from "./pages/Feedback";
 import About from "./pages/AboutMe";
+import PostPage from "./pages/PostPage/PostPage";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path={"/react-project-maxcourse/posts"} element={<Posts/>}/>
                     <Route path={"/react-project-maxcourse/feedback"} element={<Feedback />}/>
                     <Route path={"/react-project-maxcourse/about"} element={<About />} />
+                    <Route path={"/react-project-maxcourse/posts/:postIndex"} element={<PostPage />} />
                 </Route>
             </Routes>
         </div>

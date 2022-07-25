@@ -4,9 +4,13 @@
   min-width: 400px;
   min-height: 500px;
   border-radius: 20px;
-  box-shadow: 0px 2px 20px 0px #82828282;
+  box-shadow: 0 2px 20px 0 #82828282;
   gap: 15px;
   padding: 15px;
+
+  @media screen and (max-width: 768px){
+    min-width: 300px;
+  }
 }
 
 .name {
@@ -15,9 +19,16 @@
   align-items: center;
   gap: 10px;
 
-  &__input {
-    border: none;
-    border-bottom: 2px solid rgb(133,133,133);
+}
+.text-input {
+  border: none;
+  border-bottom: 2px solid rgb(133,133,133);
+  padding: 5px;
+
+  &:focus {
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 20px 0 #82828282;
   }
 }
 
@@ -73,6 +84,7 @@
   appearance: none;
   border: 1px solid #a8a8a8;
   padding: 5px;
+  background: none;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.43);
   border-radius: 5px;
   outline: none;
@@ -83,3 +95,15 @@
   }
 }
 
+.textarea {
+
+  &__inner {
+    border-radius: 5px;
+    width: auto;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

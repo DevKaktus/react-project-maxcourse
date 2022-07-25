@@ -10,7 +10,7 @@ const Home = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:3000/posts')
+        fetch(`http://localhost:3000/posts/`)
             .then(response => response.json())
             .then(
                 (result) => {
@@ -29,7 +29,6 @@ const Home = () => {
     } else if (!isLoaded) {
         return <div>...</div>;
     } else {
-        console.log(data);
         return (
             <div className={"wrapper"}>
                 <div className={"info"}>about info</div>

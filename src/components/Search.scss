@@ -9,6 +9,9 @@ border-radius: 5px;
   border: 2px solid rgba(0, 0, 0, 0.37);
   transition: all .5s;
   &:focus {
-    width: 500px;
+    width: 70vw;
+    @media screen and (max-width: 768px){
+      width: 90vw;
+    }
   }
 }
