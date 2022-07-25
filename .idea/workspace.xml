@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56c6390-b0bc-458c-8bc1-bb2553ac7bab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/PostPage/PostPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
       <workItem from="1658340738116" duration="2125000" />
       <workItem from="1658587298880" duration="2662000" />
       <workItem from="1658669069940" duration="2116000" />
-      <workItem from="1658715377182" duration="1904000" />
+      <workItem from="1658715377182" duration="2769000" />
     </task>
     <servers />
   </component>
@@ -95,5 +88,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/Home/Home.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

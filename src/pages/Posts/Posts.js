@@ -52,6 +52,7 @@ const Posts = () => {
                         />
                     </form>
                 </div>
+                <div className={"cards-container"}>
                 {
                     data.length && filteredPosts.map((data) => {
                         return (
@@ -65,6 +66,7 @@ const Posts = () => {
                         )
                     })
                 }
+                </div>
             </div>
         )
     }
